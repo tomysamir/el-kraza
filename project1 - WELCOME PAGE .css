@@ -1,0 +1,157 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url(../images/Reading-fiction.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.headertext{
+    position: absolute; /* تحديد موضع النص */
+    background-position: center;
+    margin-right: 200px;
+    top: 7%; /* تحديد موضع النص من أعلى الصورة */
+    left: 53%; /* تحديد موضع النص من يسار الصورة */
+    transform: translate(-50%, -50%); /* تحريك النص إلى الوسط */
+    color: bisque; /* لون النص */
+    font-size: 16px; /* حجم النص */
+    width: 90%;
+    height: 7%;
+}
+.headertext .text1 { 
+    padding-left: 5%;
+
+}
+.headertext .text2 { 
+    padding-left: 82%;
+    margin-top: -41px;
+}
+.headertext .aya{
+    padding-left: 22%;
+    padding-top: 1%;
+}
+
+
+/* <!-- ========================================================================================== --> */
+
+
+.hi-words{
+    position:absolute ;
+    margin-top: -30%;
+    margin-left: 13%;
+    width: 53%;
+    height: 52%;
+    color: white;
+}
+
+.hi-1{
+    position: absolute;
+    bottom: 380px;
+    left: 0px;
+    display: inline;
+}
+
+.hi-2{
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    margin-right: 50%;
+    display: inline;
+    font-size: 50px;
+}
+
+.hi-3{
+    position: absolute;
+    top: 165px;
+    left: 4px;
+    display: inline;
+}
+
+.hi-4{
+    position: absolute;
+    top: 193px;
+    left: 15px;
+    display: inline;
+}
+
+/* <!-- ========================================================================================== --> */
+
+.copywrite{
+    padding-left: 0%;
+    color: whitesmoke;
+}
+
+.-Sign{
+    position:absolute;
+    margin-left: 58%;
+    margin-top: 9%;
+    width: 30%;
+    height: 20%;
+    top:0% ;
+}
+.sign{
+    color: 	#4C7D7E;
+    width: 150px;
+    padding: 7px;
+    margin-top: 474px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid bisque ;
+    border-radius: 25px;
+    text-align: center;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition:  all 0.5s ease-in-out ;
+}
+.Log{
+    color: 	#4C7D7E;
+    width: 150px;
+    padding: 7px;
+    margin-left: 52%;
+    margin-top: -11%;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid bisque ;
+    border-radius: 25px;
+    text-align: center;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition:  all 0.5s ease-in-out ;
+}
+.cover{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition:  0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.invitation{
+    position:absolute;
+    left: 158px;
+    top: 230%;
+    font-size: 25px;
+    color:white;
+}
+.welcome-photo{
+    position:absolute;
+    margin-left: 0%;
+    margin-top: 22%;
+    width: 85%;
+    height: 202%;
+    background: none;
+}

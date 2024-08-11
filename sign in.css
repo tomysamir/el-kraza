@@ -1,0 +1,205 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url(../images/Reading-fiction.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.headertext{
+    position: absolute; /* تحديد موضع النص */
+    background-position: center;
+    margin-right: 200px;
+    top: 7%; /* تحديد موضع النص من أعلى الصورة */
+    left: 50%; /* تحديد موضع النص من يسار الصورة */
+    transform: translate(-50%, -50%); /* تحريك النص إلى الوسط */
+    color: bisque; /* لون النص */
+    font-size: 16px; /* حجم النص */
+    width: 90%;
+    height: 7%;
+}
+.headertext .text1 { 
+    padding-left: 35px;
+
+}
+.headertext .text2 { 
+    padding-left: 87%;
+    margin-top: -41px;
+}
+.headertext .aya{
+    padding-left: 22%;
+    padding-top: 1%;
+}
+/* <!-- ========================================================================================== --> */
+
+
+.hi-words{
+    position:absolute ;
+    margin-top: 11%;
+    margin-left: 32%;
+    width: 53%;
+    height: 52%;
+    color: white;
+}
+
+.hi-1{
+    position: absolute;
+    bottom: 277px;
+    left: 35%;
+    display: inline;
+}
+
+.hi-2{
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    margin-right: 50%;
+    display: inline;
+    font-size: 71px;
+}
+
+/* <!-- ========================================================================================== --> */
+
+.copywrite{
+    padding-left: 0%;
+    color: whitesmoke;
+}
+
+/* <!-- ========================================================================================== --> */
+
+.Thanks{
+    position:absolute;
+    left: 90px;
+    top: 76%;
+    font-size: 18px;
+    color:white;
+    ;
+} 
+
+/* <!-- ========================================================================================== --> */
+
+.data{
+    position:absolute;
+    margin-left: 36%;
+    margin-top: 19%;
+    width: 30%;
+    height: 39%;
+    font-size: 30px;
+    top:0% ;
+}
+.o-l{
+    width: 100%;
+    height: 100%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: -10%;
+}
+
+.f-n{
+    position:absolute;
+    left: 35px;
+    top: 11%;
+}
+
+.l-n{
+    position:absolute;
+    left: 35px;
+    top: 26%;
+}
+
+.address{
+    position:absolute;
+    left: 35px;
+    top: 42%;
+}
+
+.phone{
+    position:absolute;
+    left: 35px;
+    top: 56%;
+}
+
+.city{
+    position:absolute;
+    left: 35px;
+    top: 71%;
+}
+
+
+/* <!-- ========================================================================================== -->
+ */
+/* .DATA{
+    position: absolute;
+} */
+
+.inputbotton-1{
+    left: 180px;
+    top: 14%;
+    position: absolute;
+}
+
+.inputbotton-2{
+    left: 180px;
+    top: 29%;
+    position: absolute;
+}
+
+.inputbotton-3{
+    left: 180px;
+    top: 45%;
+    position: absolute;
+}
+
+.inputbotton-4{
+    left: 180px;
+    top: 59%;
+    position: absolute;
+}
+
+.inputbotton-5{
+    left: 180px;
+    top: 74%;
+    position: absolute;
+}
+
+.Sign{
+    color: 	#4C7D7E;
+    width: 200px;
+    padding: 7px;
+    margin-left: 20%;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid bisque ;
+    border-radius: 25px;
+    text-align: center;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition:  all 0.5s ease-in-out ;
+}
+.cover{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition:  0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+
+.copywrite{
+    padding-left: 0%;
+    color: whitesmoke;
+}
+
